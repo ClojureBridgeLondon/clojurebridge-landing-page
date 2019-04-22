@@ -32,6 +32,25 @@
      [:strong "10th/11th May 2019 @ Functional Works, London"]]]])
 
 
+
+
+(defn showcase
+  "Learning paths for Students of ClojureBridge"
+  []
+  [:section {:class "section"
+             :id    "showcase"}
+   [:div {:class "container"}
+    [:div {:class "box"}
+     [:article {:class "media"}
+      [:div {:class "media-left"}
+       [:figure {:class "image"}
+        [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+      [:div {:class "article-content"}
+       [:div {:class "content"}
+        [:h2 "Clojure Showcase"]
+        [:p "Examples of just what Clojure can do"]]]]]]])
+
+
 (defn overview
   "Overview of ClojureBridge"
   []

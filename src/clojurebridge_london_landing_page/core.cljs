@@ -21,6 +21,8 @@
   [:div
    [content/top-banner-navigation]
    [content/overview]
+   [content/showcase]
+   ])
 
 
 (defn mount [el]
