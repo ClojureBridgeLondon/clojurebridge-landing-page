@@ -195,26 +195,3 @@ coaching them in the art of coding."]
      [:p {:class "subtitle"}
       "Fun, Friendly, Free workshop for Women and non-binary genders"]
      [register]]]])
-
-
-;; Footer with tabs to select specific content
-;; An alternative to the above Navigation bar
-
-;; [:div {:class "hero-foot"}
-;;  [:nav {:class "tabs"}
-;;   [:div {:class "container"}
-;;    [:ul
-;;     [:li {:class "is-active"}
-;;      [:a "Overview"]]
-;;     [:li
-;;      [:a "Showcase"]]
-;;     [:li
-;;      [:a "Workshops"]]
-;;     [:li
-;;      [:a "Install"]]
-;;     [:li
-;;      [:a "Next steps"]]
-;;     [:li
-;;      [:a "Coaches"]]
-;;     [:li
-;;      [:a "Sponsors"]]]]]]
