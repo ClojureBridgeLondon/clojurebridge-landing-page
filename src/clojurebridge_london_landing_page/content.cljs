@@ -78,6 +78,52 @@ coaching them in the art of coding."]
         [:p "Examples of just what Clojure can do"]]]]]]])
 
 
+(defn schedule
+  "Learning paths for Students of ClojureBridge"
+  []
+  [:section {:class "section"
+             :id    "schedule"}
+   [:div {:class "container"}
+    [:div {:class "box"}
+     [:article {:class "media"}
+      [:div {:class "media-left"}
+       [:figure {:class "image"}
+        [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+      [:div {:class "article-content"}
+       [:div {:class "content"}
+        [:h2 "ClojureBridge Schedule"]
+        [:div {:class "columns"}
+         [:div {:class "column is-half"}
+          [:h3 "Friday Evening"]
+          [:ul
+           [:li
+            [:strong "18:30: "] "Doors open & food"]
+           [:li
+            [:strong "19:00: "] "Introducing ClojureBridge & Clojure"]
+           [:li
+            [:strong "19:45: "] "Pair with Coach / choose a workshop"]
+           [:li
+            [:strong "20:30: "] "Wrap up"]]]
+         [:div {:class "column"}
+          [:h3 "Saturday"]
+          [:ul
+           [:li
+            [:strong "10:30: "] "Doors open & breakfast"]
+           [:li
+            [:strong "11:00: "] "Workshop starts"]
+           [:li
+            [:strong "13:15: "] "Group Share - what have we learnt so far"]
+           [:li
+            [:strong "13:30: "] "Lunch"]
+           [:li
+            [:strong "14:30: "] "Continue workshop"]
+           [:li
+            [:strong "16:30: "] "Retrospective - capturing feedback"]
+           [:li
+            [:strong "17:00: "] "Wrap up"]]]]]]]]]])
+
+
+
 (defn overview
   "Overview of ClojureBridge"
   []

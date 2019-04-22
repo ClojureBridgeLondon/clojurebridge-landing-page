@@ -23,6 +23,7 @@
    [content/overview]
    [content/showcase]
    [content/learning-paths]
+   [content/schedule]
    ])
 
 
