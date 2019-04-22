@@ -32,6 +32,33 @@
      [:strong "10th/11th May 2019 @ Functional Works, London"]]]])
 
 
+(defn learning-paths
+  "Learning paths for Students of ClojureBridge"
+  []
+  [:section {:class "section"
+             :id    "learning-paths"}
+   [:div {:class "container"}
+    [:div {:class "box"}
+     [:article {:class "media"}
+      [:div {:class "media-left"}
+       [:figure {:class "image"}
+        [:img {:src "images/learning-paths-banner.jpg"}]]]
+      [:div {:class "article-content"}
+       [:div {:class "content"}
+        [:h2 "Learning Paths"]
+        [:p "Students can choose their own path in learning Clojure and we have put together content at three different levels"]
+        [:ul
+         [:li
+          [:strong "Absolute Beginner"] " - have a conversation with your computer using colours and shapes"]
+         [:li
+          [:strong "A little coding experience"] " - tackle some simple challenges"]
+         [:li
+          [:strong "Some experience coding"] " - build a website, app or game with a coach"]]
+
+        [:p "Every student is paired with a coach who will support them through the workshop, helping them to relate to the concepts covered and
+coaching them in the art of coding."]
+        ]]]]]])
+
 
 
 (defn showcase
@@ -98,7 +125,7 @@ coaching them in the art of coding."]
        [:a {:class "navbar-item"
             :href  "#showcase"} "Showcase"]
        [:a {:class "navbar-item"
-            :href  "#workshops"} "Workshops"]
+            :href  "#learning-paths"} "Learning Paths"]
        [:a {:class "navbar-item"
             :href  "#install"} "Install"]
        [:a {:class "navbar-item"

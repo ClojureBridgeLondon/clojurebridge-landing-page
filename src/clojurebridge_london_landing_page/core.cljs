@@ -22,6 +22,7 @@
    [content/top-banner-navigation]
    [content/overview]
    [content/showcase]
+   [content/learning-paths]
    ])
 
 
