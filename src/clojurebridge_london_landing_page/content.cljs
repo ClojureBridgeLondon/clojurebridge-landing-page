@@ -41,6 +41,8 @@ coaching them in the art of coding."]
         [:p "Students can choose their own path in learning Clojure and we have put together content at different experience levels of experience."]
         ]]]]]])
 
+
+
 (defn top-banner-navigation
   "Top banner and navigation for the website"
   []
@@ -89,23 +91,25 @@ coaching them in the art of coding."]
      [:p {:class "subtitle"}
       "Fun, Friendly, Free workshop for Women and non-binary genders"]]]
 
-   ;; Footer with tabs to select specific content
-   ;; An alternative to the above Navigation bar
-   #_[:div {:class "hero-foot"}
-      [:nav {:class "tabs"}
-       [:div {:class "container"}
-        [:ul
-         [:li {:class "is-active"}
-          [:a "Overview"]]
-         [:li
-          [:a "Showcase"]]
-         [:li
-          [:a "Workshops"]]
-         [:li
-          [:a "Install"]]
-         [:li
-          [:a "Next steps"]]
-         [:li
-          [:a "Coaches"]]
-         [:li
-          [:a "Sponsors"]]]]]]])
+
+;; Footer with tabs to select specific content
+;; An alternative to the above Navigation bar
+
+;; [:div {:class "hero-foot"}
+;;  [:nav {:class "tabs"}
+;;   [:div {:class "container"}
+;;    [:ul
+;;     [:li {:class "is-active"}
+;;      [:a "Overview"]]
+;;     [:li
+;;      [:a "Showcase"]]
+;;     [:li
+;;      [:a "Workshops"]]
+;;     [:li
+;;      [:a "Install"]]
+;;     [:li
+;;      [:a "Next steps"]]
+;;     [:li
+;;      [:a "Coaches"]]
+;;     [:li
+;;      [:a "Sponsors"]]]]]]
