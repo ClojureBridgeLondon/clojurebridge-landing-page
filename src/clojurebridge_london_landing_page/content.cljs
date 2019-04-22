@@ -20,6 +20,18 @@
      "Mauris ac nunc ligula. Nullam tincidunt fermentum tellus ac imperdiet. Suspendisse et accumsan augue, vitae efficitur mi. Nullam a tortor fringilla erat dapibus aliquet. Integer volutpat arcu nec quam dapibus, ut viverra ipsum vulputate. Quisque ut justo ut nisl suscipit finibus. Duis egestas enim quis ante porttitor malesuada. Phasellus scelerisque diam posuere pretium egestas."]]])
 
 
+(defn register
+  "Component for signing up to the event, including the date of the current event"
+  []
+  [:div {:class "columns"}
+   [:div {:class "column"}
+    [:a {:class "button is-black is-medium is-outlined is-rounded"
+         :href  "https://www.bridgetroll.org/events/471"}
+     "Signup for the next event"]
+    [:div {:class "column"}
+     [:strong "10th/11th May 2019 @ Functional Works, London"]]]])
+
+
 (defn overview
   "Overview of ClojureBridge"
   []
@@ -89,7 +101,8 @@ coaching them in the art of coding."]
      [:h1 {:class "title"}
       "ClojureBridge London"]
      [:p {:class "subtitle"}
-      "Fun, Friendly, Free workshop for Women and non-binary genders"]]]
+      "Fun, Friendly, Free workshop for Women and non-binary genders"]
+     [register]]]])
 
 
 ;; Footer with tabs to select specific content
