@@ -20,6 +20,27 @@
      "Mauris ac nunc ligula. Nullam tincidunt fermentum tellus ac imperdiet. Suspendisse et accumsan augue, vitae efficitur mi. Nullam a tortor fringilla erat dapibus aliquet. Integer volutpat arcu nec quam dapibus, ut viverra ipsum vulputate. Quisque ut justo ut nisl suscipit finibus. Duis egestas enim quis ante porttitor malesuada. Phasellus scelerisque diam posuere pretium egestas."]]])
 
 
+(defn overview
+  "Overview of ClojureBridge"
+  []
+  [:section {:class "section"
+             :id    "overview"}
+   [:div {:class "container"}
+    [:div {:class "box"}
+     [:article {:class "media"}
+      [:div {:class "media-left"}
+       [:figure {:class "image"}
+        [:img {:src "images/clojurebridge-diversity-2015.png"}]]]
+      [:div {:class "article-content"}
+       [:div {:class "content"}
+        [:h2 "ClojureBridge overview "]
+        [:p "Fun, free and friendly workshops for those identifying as women or non-binary gender."]
+        [:p "Every student is paired with a coach who will support them through the workshop, helping them to relate to the concepts covered and
+coaching them in the art of coding."]
+        [:p "We teach students Clojure, a functional programming language that is great for beginners and experienced developers alike.  Find out " [:a {:href "#why-clojure"} "why Clojure is a great language to learn."]]
+        [:p "Students can choose their own path in learning Clojure and we have put together content at different experience levels of experience."]
+        ]]]]]])
+
 (defn top-banner-navigation
   "Top banner and navigation for the website"
   []

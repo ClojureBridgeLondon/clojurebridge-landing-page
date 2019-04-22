@@ -20,7 +20,7 @@
 (defn main-page []
   [:div
    [content/top-banner-navigation]
-   [content/lorem-ipsum]])
+   [content/overview]
 
 
 (defn mount [el]
