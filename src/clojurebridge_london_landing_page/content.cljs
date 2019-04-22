@@ -44,7 +44,7 @@ coaching them in the art of coding."]
 (defn top-banner-navigation
   "Top banner and navigation for the website"
   []
-  [:section {:class "section hero is-small is-dark"}
+  [:section {:class "section hero is-white is-small"}
 
    ;; Navigation bar (responsive)
    [:div {:class "navbar"}
@@ -52,7 +52,7 @@ coaching them in the art of coding."]
      [:div {:class "navbar-brand"}
       [:a {:class "navbar-item"
            :href  "/"}
-       [:img {:src "https://clojurebridge.org/community-docs/img/ClojureBridgeLogo.png"}]]
+       [:img {:src "images/clojurebridge-logo.png"}]]
       [:span {:class       "navbar-burger burger"
               :data-target "navbarMenuHeroA"}
        ;; Empty spans needed for navbar burger
