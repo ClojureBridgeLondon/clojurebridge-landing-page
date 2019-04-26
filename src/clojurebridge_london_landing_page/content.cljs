@@ -270,7 +270,7 @@ coaching them in the art of coding."]
   []
   [:div {:class "columns"}
    [:div {:class "column"}
-    [:a {:class "button is-black is-medium is-outlined is-rounded"
+    [:a {:class "button is-success is-large is-rounded"
          :href  "https://www.bridgetroll.org/events/471"}
      "Signup for the next event"]
     [:div {:class "column"}
