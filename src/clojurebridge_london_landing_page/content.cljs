@@ -75,6 +75,24 @@
         [:p (get sponsor-details :message)]]]]]]])
 
 
+
+(defn sponsors
+  "How to sponsor us.
+  All our sponsors past and present"
+  []
+  [:div {:class "container"}
+   [:div {:class "box"
+          :id    "sponsors"}
+    [:div {:class "columns"}
+     [:div {:class "column"}
+      [:figure {:class "image is-128x128"}
+       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Sponsoring ClojureBridge London"]
+       [:p "How to get involved as a sponsor"]]]]]])
+
+
 (defn install
   "How to install Clojure on your computer
 

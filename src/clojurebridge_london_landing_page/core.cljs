@@ -38,6 +38,7 @@
    [content/schedule]
    [content/resources]
    [content/coaches]
+   [content/sponsors]
    ])
 
 
