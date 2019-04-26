@@ -4,7 +4,7 @@
    [reagent.core :as reagent :refer [atom]]
    [clojurebridge-london-landing-page.content :as content]))
 
-(println "Reloading: src/clojurebridge_london_landing_page/core.cljs")
+(println (js/Date.) "Reloading: src/clojurebridge_london_landing_page/core.cljs")
 
 (defn multiply [a b] (* a b))
 
