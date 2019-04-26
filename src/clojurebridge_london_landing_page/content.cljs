@@ -103,13 +103,16 @@
           :id    "install"}
     [:div {:class "columns"}
      [:div {:class "column"}
-      [:figure {:class "image is-128x128"}
-       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+      [:figure {:class "image"}
+       [:a {:href   "https://clojurebridgelondon.github.io/workshop/development-tools/"
+            :target "_blank"}
+        [:img {:src "images/clojurebridge-install.png"}]]]]
      [:div {:class "column"}
       [:div {:class "content"}
        [:h2 "Clojure Install"]
-       [:p "If you are taking the learning path to build a website, game or app with a coach,
-           then you should install Clojure on your laptop."]
+       [:p "If you are taking the learning path to build a website, game or app
+           (or wish to do so after the event),
+           then you should install Clojure on your laptop"]
        [:p "The "
         [:a {:href   "https://clojurebridgelondon.github.io/workshop/development-tools/"
              :target "_blank"}
