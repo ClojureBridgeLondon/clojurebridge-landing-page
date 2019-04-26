@@ -15,7 +15,8 @@
          :href  "https://www.bridgetroll.org/events/471"}
      "Signup for the next event"]
     [:div {:class "column"}
-     [:strong "10th/11th May 2019 @ Functional Works, London"]]]])
+     [:strong "10th/11th May 2019 @ Functional Works, London"]
+     [:p "Coach training 2nd May"]]]])
 
 
 (defn install
