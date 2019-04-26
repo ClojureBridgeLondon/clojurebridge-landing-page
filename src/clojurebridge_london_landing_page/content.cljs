@@ -6,17 +6,7 @@
 
 
 
-(defn register
-  "Component for signing up to the event, including the date of the current event"
-  []
-  [:div {:class "columns"}
-   [:div {:class "column"}
-    [:a {:class "button is-black is-medium is-outlined is-rounded"
-         :href  "https://www.bridgetroll.org/events/471"}
-     "Signup for the next event"]
-    [:div {:class "column"}
-     [:strong "10th/11th May 2019 @ Functional Works, London"]
-     [:p "Coach training 2nd May"]]]])
+
 
 (defn resources
   "Useful resources during the workshop.
@@ -275,6 +265,17 @@ coaching them in the art of coding."]
         [:span "Issues/PRs"]]]]]]]
   )
 
+(defn register
+  "Component for signing up to the event, including the date of the current event"
+  []
+  [:div {:class "columns"}
+   [:div {:class "column"}
+    [:a {:class "button is-black is-medium is-outlined is-rounded"
+         :href  "https://www.bridgetroll.org/events/471"}
+     "Signup for the next event"]
+    [:div {:class "column"}
+     [:strong "10th/11th May 2019 @ Functional Works, London"]
+     [:p "Coach training 2nd May"]]]])
 
 
 (defn banner-columns
