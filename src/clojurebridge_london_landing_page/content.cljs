@@ -36,6 +36,23 @@
        [:p "Invaluable resources to help you create wonderful things in Clojure"]]]]]])
 
 
+(defn coaches
+  "Details for coaches.
+
+  Coach training.
+  Expectations."
+  []
+  [:div {:class "container"}
+   [:div {:class "box"
+          :id    "coaches"}
+    [:div {:class "columns"}
+     [:div {:class "column"}
+      [:figure {:class "image is-128x128"}
+       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Coaches Guide"]
+       [:p "Everything you wanted to know as a coach but were a little shy about asking..."]]]]]])
 
 (defn sponsor-current
   "Sponsors for our current event, to help that sponsor get some exposure

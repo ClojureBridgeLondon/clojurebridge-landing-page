@@ -37,6 +37,7 @@
    [content/install]
    [content/schedule]
    [content/resources]
+   [content/coaches]
    ])
 
 
