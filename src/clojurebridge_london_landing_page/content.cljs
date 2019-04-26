@@ -18,6 +18,24 @@
      [:strong "10th/11th May 2019 @ Functional Works, London"]
      [:p "Coach training 2nd May"]]]])
 
+(defn resources
+  "Useful resources during the workshop.
+
+  Where to go next after the workshop."
+  []
+  [:div {:class "container"}
+   [:div {:class "box"
+          :id    "resources"}
+    [:div {:class "columns"}
+     [:div {:class "column"}
+      [:figure {:class "image is-128x128"}
+       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Clojure Resources"]
+       [:p "Invaluable resources to help you create wonderful things in Clojure"]]]]]])
+
+
 
 (defn sponsor-current
   "Sponsors for our current event, to help that sponsor get some exposure

@@ -36,6 +36,7 @@
    [content/learning-paths]
    [content/install]
    [content/schedule]
+   [content/resources]
    ])
 
 
