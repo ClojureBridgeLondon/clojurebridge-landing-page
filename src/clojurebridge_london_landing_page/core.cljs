@@ -20,7 +20,8 @@
 
 (defn main-page []
   [:div
-   [content/top-banner-navigation]
+   [content/navigation-top]
+   [content/hero-banner]
    [content/overview]
    [content/showcase]
    [content/learning-paths]

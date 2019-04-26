@@ -157,48 +157,53 @@ coaching them in the art of coding."]
        ]]]]])
 
 
+(defn navigation-top
+  ""
+  []
+  ;; Navigation bar (responsive)
+  [:nav {:class      "navbar is-fixed-top is-dark"
+         :role       "navigation"
+         :aria-label "main navigation"}
+   [:div {:class "container"}
+    [:div {:class "navbar-brand"}
+     [:a {:class "navbar-item"
+          :href  "/"}
+      [:img {:src "images/clojurebridge-logo.png"}]]
+     [:span {:class       "navbar-burger burger"
+             :data-target "navbarClojureBridge"}
+      ;; Empty spans needed for navbar burger
+      [:span][:span][:span]]]
+    [:div {:id    "navbarClojureBridge"
+           :class "navbar-menu"}
+     [:div {:class "navbar-start"}
+      [:a {:class "navbar-item"
+           :href  "#overview"} "Overview"]
+      [:a {:class "navbar-item"
+           :href  "#showcase"} "Showcase"]
+      [:a {:class "navbar-item"
+           :href  "#learning-paths"} "Learning Paths"]
+      [:a {:class "navbar-item"
+           :href  "#install"} "Install"]
+      [:a {:class "navbar-item"
+           :href  "#resources"} "Resources"]
+      [:a {:class "navbar-item"
+           :href  "#resources"} "Coaches"]
+      [:a {:class "navbar-item"
+           :href  "#sponsors"} "Sponsors"]
+      [:span {:class "navbar-item"}
+       [:a {:class "button is-inverted"
+            :href  "https://github.com/clojurebridgelondon"}
+        [:span {:class "icon"}
+         [:i {:class "fab fa-github"}]]
+        [:span "Issues/PRs"]]]]]]]
+  )
 
 
 
-(defn top-banner-navigation
+(defn hero-banner
   "Top banner and navigation for the website"
   []
-  [:div {:class "hero is-white is-small"}
-
-   ;; Navigation bar (responsive)
-   [:div {:class "navbar"}
-    [:div {:class "container"}
-     [:div {:class "navbar-brand"}
-      [:a {:class "navbar-item"
-           :href  "/"}
-       [:img {:src "images/clojurebridge-logo.png"}]]
-      [:span {:class       "navbar-burger burger"
-              :data-target "navbarMenuHeroA"}
-       ;; Empty spans needed for navbar burger
-       [:span][:span][:span]]]
-     [:div {:id    "navbarMenuHeroA"
-            :class "navbar-menu"}
-      [:div {:class "navbar-start"}
-       [:a {:class "navbar-item"
-            :href  "#overview"} "Overview"]
-       [:a {:class "navbar-item"
-            :href  "#showcase"} "Showcase"]
-       [:a {:class "navbar-item"
-            :href  "#learning-paths"} "Learning Paths"]
-       [:a {:class "navbar-item"
-            :href  "#install"} "Install"]
-       [:a {:class "navbar-item"
-            :href  "#resources"} "Resources"]
-       [:a {:class "navbar-item"
-            :href  "#resources"} "Coaches"]
-       [:a {:class "navbar-item"
-            :href  "#sponsors"} "Sponsors"]
-       [:span {:class "navbar-item"}
-        [:a {:class "button is-inverted"
-             :href  "https://github.com/clojurebridgelondon"}
-         [:span {:class "icon"}
-          [:i {:class "fab fa-github"}]]
-         [:span "Issues/PRs"]]]]]]]
+  [:div {:class "hero is-small"}
 
    ;; Tob banner title and subtitle
    [:div {:class "hero-body"}
