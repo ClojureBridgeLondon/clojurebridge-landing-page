@@ -29,7 +29,7 @@
 (defn main-page []
   [:div
    [content/navigation-top]
-   [content/hero-banner]
+   [content/banner-columns]
    [content/sponsor-current (get-in @app-state [:sponsors :current])]
    [content/overview]
    [content/showcase]

@@ -277,16 +277,16 @@ coaching them in the art of coding."]
 
 
 
-(defn hero-banner
+(defn banner-columns
   "Top banner and navigation for the website"
   []
-  [:div {:class "hero is-small"}
-
-   ;; Tob banner title and subtitle
-   [:div {:class "hero-body"}
-    [:div {:class "container"}
-     [:h1 {:class "title"}
-      "ClojureBridge London"]
-     [:p {:class "subtitle"}
-      "Fun, Friendly, Free workshop for Women and non-binary genders"]
-     [register]]]])
+  [:section {:class "section"}
+   [:div {:class "container"}
+    [:div {:class "columns"}
+     [:div {:class "column"}
+      [:h1 {:class "title"}
+       "ClojureBridge London"]
+      [:p {:class "subtitle"}
+       "Fun, Friendly, Free workshop for Women and non-binary genders"]]
+     [:div {:class "column"}
+      [register]]]]])
