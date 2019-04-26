@@ -19,6 +19,27 @@
      [:p "Coach training 2nd May"]]]])
 
 
+(defn sponsor-current
+  "Sponsors for our current event, to help that sponsor get some exposure
+
+  Argument: hash-map of strings - :name, :website, :logo, :message"
+  [sponsor-details]
+  [:div {:class "container"
+         :id    "sponsors"}
+   [:div {:class "box"}
+    [:div {:class "column is-half is-8 is-offset-2"}
+     [:a {:href (get sponsor-details :website)}
+      [:h3 {:class "title is-5 has-text-centered"} (str "Our Sponsors:" " " (get sponsor-details :name))]]
+     [:div {:class "columns"}
+      [:div {:class "column"}
+       [:figure {:class "image"}
+        [:a {:href (get sponsor-details :website)}
+         [:img {:src "images/functional-works-logo.png"}]]]]
+      [:div {:class "column"}
+       [:div {:class "content"}
+        [:p (get sponsor-details :message)]]]]]]])
+
+
 (defn install
   "How to install Clojure on your computer
 

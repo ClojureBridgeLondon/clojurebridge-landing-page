@@ -12,7 +12,15 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; define your app data so that it doesn't get over-written on reload
-(defonce app-state (atom {:text "Hello world!"}))
+(defonce app-state (atom
+                     {:text "Hello world!"
+                      :sponsors
+                      {:current {:name    "Functional Works"
+                                 :logo    "images/functional-works-logo.svg"
+                                 :website "https://functional.works-hub.com/"
+                                 :message "Breaking down the barriers to hiring the right software engineers, providing a platform to managing the whole process (written in ClojureScript)."}
+                       :past    {}}}))
+
 
 
 ;; Website structure
@@ -22,6 +30,7 @@
   [:div
    [content/navigation-top]
    [content/hero-banner]
+   [content/sponsor-current (get-in @app-state [:sponsors :current])]
    [content/overview]
    [content/showcase]
    [content/learning-paths]
