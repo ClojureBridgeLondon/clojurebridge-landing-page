@@ -6,16 +6,17 @@
 
 (println (js/Date.) "Reloading: src/clojurebridge_london_landing_page/core.cljs")
 
-(defn multiply [a b] (* a b))
 
+
+;; Application State
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; define your app data so that it doesn't get over-written on reload
 (defonce app-state (atom {:text "Hello world!"}))
 
-(defn get-app-element []
-  (gdom/getElement "app"))
 
-
+;; Website structure
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defn main-page []
   [:div
@@ -26,6 +27,12 @@
    [content/schedule]
    ])
 
+
+;; System configuration code
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn get-app-element []
+  (gdom/getElement "app"))
 
 (defn mount [el]
   (reagent/render-component [main-page] el))
