@@ -18,6 +18,30 @@
      [:strong "10th/11th May 2019 @ Functional Works, London"]]]])
 
 
+(defn install
+  "How to install Clojure on your computer
+
+  TODO: add a selector for operating system and only show the relevant content"
+  []
+  [:div {:class "container"}
+   [:div {:class "box"
+          :id    "install"}
+    [:div {:class "columns"}
+     [:div {:class "column"}
+      [:figure {:class "image is-128x128"}
+       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Clojure Install"]
+       [:p "If you are taking the learning path to build a website, game or app with a coach,
+           then you should install Clojure on your laptop."]
+       [:p "The "
+        [:a {:href   "https://clojurebridgelondon.github.io/workshop/development-tools/"
+             :target "_blank"}
+         "Clojure development environment guides"]
+        " show you how to do this for Linux, MacOSX and Windows."]]]]]])
+
+
 (defn learning-paths
   "Learning paths for Students of ClojureBridge"
   []
