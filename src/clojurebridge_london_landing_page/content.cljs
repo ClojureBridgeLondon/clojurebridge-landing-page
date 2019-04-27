@@ -249,6 +249,8 @@ coaching them in the art of coding."]
       [:a {:class "navbar-item"
            :href  "#learning-paths"} "Learning Paths"]
       [:a {:class "navbar-item"
+           :href  "#schedule"} "Schedule"]
+      [:a {:class "navbar-item"
            :href  "#install"} "Install"]
       [:a {:class "navbar-item"
            :href  "#resources"} "Resources"]
