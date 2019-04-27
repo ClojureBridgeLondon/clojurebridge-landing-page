@@ -42,7 +42,10 @@
      [:div {:class "column"}
       [:div {:class "content"}
        [:h2 "Coaches Guide"]
-       [:p "Everything you wanted to know as a coach but were a little shy about asking..."]]]]]])
+       [:p "Everything you wanted to know as a coach but were a little shy about asking..."]
+       [:p
+        [:a {:href "https://docs.google.com/presentation/d/e/2PACX-1vR_RYp1Vq9O75hmjG-SWRjtr8zezF8CUXicIOSkJqJf-U512u9E7SZm0UCzcIxqbia1VWObchTx9e-L/pub?start=false&loop=false&delayms=3000"}
+         "Coach readiness training"]]]]]]])
 
 (defn sponsor-current
   "Sponsors for our current event, to help that sponsor get some exposure
@@ -99,7 +102,9 @@
         [:img {:src "images/clojurebridge-install.png"}]]]]
      [:div {:class "column"}
       [:div {:class "content"}
-       [:h2 "Clojure Install"]
+       [:a {:href   "https://clojurebridgelondon.github.io/workshop/development-tools/"
+            :target "_blank"}
+        [:h2 "Clojure Install"]]
        [:p "If you are taking the learning path to build a website, game or app
            (or wish to do so after the event),
            then you should install Clojure on your laptop"]
