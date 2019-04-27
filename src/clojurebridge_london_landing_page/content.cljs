@@ -8,8 +8,7 @@
   Where to go next after the workshop."
   []
   [:div {:class "container"}
-   [:div {:class "box"
-          :id    "resources"}
+   [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
       [:figure {:class "image is-128x128"}
@@ -27,8 +26,7 @@
   Expectations."
   []
   [:div {:class "container"}
-   [:div {:class "box"
-          :id    "coaches"}
+   [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
       [:figure {:class "image is-128x128"}
@@ -68,8 +66,7 @@
   All our sponsors past and present"
   []
   [:div {:class "container"}
-   [:div {:class "box"
-          :id    "sponsors"}
+   [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
       [:figure {:class "image is-128x128"}
@@ -86,8 +83,7 @@
   TODO: add a selector for operating system and only show the relevant content"
   []
   [:div {:class "container"}
-   [:div {:class "box"
-          :id    "install"}
+   [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
       [:figure {:class "image"}
@@ -112,8 +108,7 @@
 (defn learning-paths
   "Learning paths for Students of ClojureBridge"
   []
-  [:div {:class "container"
-         :id    "learning-paths"}
+  [:div {:class "container"}
    [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
@@ -144,8 +139,7 @@ coaching them in the art of coding."]
   box add shadow and padding around content"
   []
   [:div {:class "container"}
-   [:div {:class "box"
-          :id    "showcase"}
+   [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
       [:figure {:class "image is-128x128"}
@@ -159,8 +153,7 @@ coaching them in the art of coding."]
 (defn schedule
   "Learning paths for Students of ClojureBridge"
   []
-  [:div {:class "container"
-         :id    "schedule"}
+  [:div {:class "container"}
    [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
@@ -200,13 +193,22 @@ coaching them in the art of coding."]
         [:li
          [:strong "17:00: "] "Wrap up"]]]]]]])
 
+(defn level-separator
+  "A separator to provide a gap between components.
+  The separator takes an id so that the section
+  does not get hidden by the menu when linking"
+  [identifier]
+  [:div {:class "level"
+         :id    identifier}
+   [:h5 {:class "is-size-5 is-invisible"}
+    identifier]])
+
 
 
 (defn overview
   "Overview of ClojureBridge"
   []
-  [:div {:class "container"
-         :id    "overview"}
+  [:div {:class "container"}
    [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}

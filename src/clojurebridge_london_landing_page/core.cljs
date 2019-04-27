@@ -31,13 +31,21 @@
    [content/navigation-top]
    [content/banner-columns]
    [content/sponsor-current (get-in @app-state [:sponsors :current])]
+   (content/level-separator "overview")
    [content/overview]
+   (content/level-separator "showcase")
    [content/showcase]
+   (content/level-separator "learning-paths")
    [content/learning-paths]
+   (content/level-separator "install")
    [content/install]
+   (content/level-separator "schedule")
    [content/schedule]
+   (content/level-separator "resources")
    [content/resources]
+   (content/level-separator "coaches")
    [content/coaches]
+   (content/level-separator "sponsors")
    [content/sponsors]
    ])
 
