@@ -264,7 +264,7 @@ coaching them in the art of coding."]
         [:span "Issues/PRs"]]]]]]]
   )
 
-(defn register
+(defn- register
   "Component for signing up to the event, including the date of the current event"
   []
   [:div {:class "columns"}
