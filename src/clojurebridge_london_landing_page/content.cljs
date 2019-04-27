@@ -2,12 +2,6 @@
 
 ;; Content for the ClojureBridge London website
 
-
-
-
-
-
-
 (defn resources
   "Useful resources during the workshop.
 
