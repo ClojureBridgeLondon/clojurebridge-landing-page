@@ -83,16 +83,27 @@
   [:div {:class "container"}
    [:div {:class "box"}
     [:div {:class "columns"}
+
      [:div {:class "column"}
-      [:figure {:class "image is-128x128"}
-       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+      [:figure {:class "image"}
+       [:img {:src "images/coaching.png"}]]]
      [:div {:class "column"}
       [:div {:class "content"}
        [:h2 "Coaches Guide"]
-       [:p "Everything you wanted to know as a coach but were a little shy about asking..."]
+       [:p "Coaching is incredibly rewarding and a great way to embed your understanding of Clojure"]
+       [:p "Not sure you are experienced enough? Take a look at the exercises we use in our workshops"]]]
+
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Coach Resources"]
+       [:p
+        [:a {:href "https://www.youtube.com/watch?v=cZdo_vYvd8M"}
+         "Coach training video"]]
        [:p
         [:a {:href "https://docs.google.com/presentation/d/e/2PACX-1vR_RYp1Vq9O75hmjG-SWRjtr8zezF8CUXicIOSkJqJf-U512u9E7SZm0UCzcIxqbia1VWObchTx9e-L/pub?start=false&loop=false&delayms=3000"}
-         "Coach readiness training"]]]]]]])
+         "Coach readiness presentation"]]]]]]])
+
+
 
 (defn sponsor-current
   "Sponsors for our current event, to help that sponsor get some exposure
