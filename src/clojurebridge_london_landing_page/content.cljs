@@ -135,8 +135,8 @@
    [:div {:class "box"}
     [:div {:class "columns"}
      [:div {:class "column"}
-      [:figure {:class "image is-128x128"}
-       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+      [:figure {:class "image"}
+       [:img {:src "images/functional-works-logo.png"}]]]
      [:div {:class "column"}
       [:div {:class "content"}
        [:h2 "Sponsoring ClojureBridge London"]
@@ -224,7 +224,7 @@ coaching them in the art of coding."]
     [:div {:class "columns"}
      [:div {:class "column"}
       [:figure {:class "image is-128x128"}
-       [:img {:src "https://clojure.org/images/clojure-logo-120b.png"}]]]
+       [:img {:src "images/clock.jpg"}]]]
 
      [:div {:class "column"}
       [:div {:class "content"}
