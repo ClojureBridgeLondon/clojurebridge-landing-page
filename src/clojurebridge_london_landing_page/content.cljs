@@ -293,6 +293,6 @@ coaching them in the art of coding."]
       [:p {:class "subtitle"}
        "Fun, Friendly, Free workshop for Women* and non-binary genders"]
       [:p {:class "subtitle is-6"}
-       "* any person who self-identifies as a women"]]
+       "* any person who self-identifies as a woman"]]
      [:div {:class "column"}
       [register]]]]])
