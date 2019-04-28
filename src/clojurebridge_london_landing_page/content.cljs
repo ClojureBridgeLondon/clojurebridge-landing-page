@@ -327,8 +327,9 @@ coaching them in the art of coding."]
       [:a {:class "navbar-item"
            :href  "#sponsors"} "Sponsors"]
       [:span {:class "navbar-item"}
-       [:a {:class "button is-inverted"
-            :href  "https://github.com/clojurebridgelondon"}
+       [:a {:class  "button is-inverted"
+            :target "_blank"
+            :href   "https://github.com/ClojureBridgeLondon/landing-page-draft"}
         [:span {:class "icon"}
          [:i {:class "fab fa-github"}]]
         [:span "Issues/PRs"]]]]]]]
