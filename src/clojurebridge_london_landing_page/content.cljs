@@ -109,7 +109,8 @@
       [:div {:class "content"}
        [:h2 "Coaches Guide"]
        [:p "Coaching is incredibly rewarding and a great way to embed your understanding of Clojure"]
-       [:p "Not sure you are experienced enough? Take a look at the exercises we use in our workshops"]]]
+       [:p "Not sure you are experienced enough? Take a look at the exercises we use in our workshops"]
+       [:p "All coaches agree to abide by the code of conduct"]]]
 
      [:div {:class "column"}
       [:div {:class "content"}
