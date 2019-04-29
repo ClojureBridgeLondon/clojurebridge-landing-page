@@ -12,7 +12,7 @@
     [:div {:class "columns"}
      [:div {:class "column"}
       [:figure {:class "image"}
-       [:img {:src "/images/documentation.jpg"}]]]
+       [:img {:src "images/documentation.jpg"}]]]
 
      [:div {:class "column"}
       [:div {:class "content"}
