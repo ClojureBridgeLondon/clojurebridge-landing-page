@@ -15,63 +15,81 @@
        [:img {:src "images/documentation.jpg"}]]]
 
      [:div {:class "column"}
-      [:div {:class "content"}
-       [:h2 "Documentation"]
-       [:ul
-        [:li
-         [:a {:href "https://clojuredocs.org/"} "Clojure docs"]
-         " - documentation and examples"]
-        [:li
-         [:a {:href "https://clojure.org/"} "Clojure.org"]]]]]
+      [:h4 {:class "title is-4"} "Documentation"]
+      [:table {:class "table"}
+       [:tbody
+        [:tr
+         [:th
+          [:a {:href "https://clojuredocs.org/"} "Clojure docs"]]
+         [:td "docs for functions"]]
+        [:tr
+         [:th
+          [:a {:href "https://clojure.org/"} "Clojure.org"]]
+         [:td "language and concepts"]]
+        [:tr
+         [:th
+          [:a {:href "https://clojure.org/"} "CljDocs"]]
+         [:td "search library docs"]]]]]
 
      [:div {:class "column"}
-      [:div {:class "content"}
-       [:h2 "Practising"]
-       [:ul
-        [:li
-         [:a {:href "http://www.4clojure.com/"} "4Clojure"]
-         " - exercise to learn Clojure functions"]
-        [:li
-         [:a {:href "https://exercism.io/tracks/clojure"} "Exercism"]
-         " - Code practice and mentorship"]
-        [:li
-         [:a {:href "https://www.codewars.com/?language=clojure"} "Code Wars"]
-         " - real coding challenges"]
-        [:li
-         [:a {:href "https://www.codingame.com/"} "CodinGame"]
-         " - Practice & learn the fun way"]]]]
+      [:h4 {:class "title is-4"} "Practising"]
+      [:table {:class "table"}
+       [:tbody
+        [:tr
+         [:th
+          [:a {:href "http://www.4clojure.com/"} "4Clojure"]]
+         [:td "learn Clojure functions"]]
+        [:tr
+         [:th
+          [:a {:href "https://exercism.io/tracks/clojure"} "Exercism"]
+          ]
+         [:td "code practice & mentorship"]]
+        [:tr
+         [:th
+          [:a {:href "https://www.codewars.com/?language=clojure"} "Code Wars"]]
+         [:td "real coding challenges"]]
+        [:tr
+         [:th
+          [:a {:href "https://www.codingame.com/"} "CodinGame"]]
+         [:td "practice & learn the fun way"]]]]]
 
      [:div {:class "column"}
-      [:div {:class "content"}
-       [:h2 "Online books"]
-       [:ul
-        [:li
-         [:a {:href "https://github.com/clojure-cookbook/clojure-cookbook"} "Clojure Cookbook"]]
-        [:li
-         [:a {:href "http://practicalli.github.io/"} "Practicalli Clojure"]]
-        [:li
-         [:a {:href "http://funcool.github.io/clojurescript-unraveled/"} "ClojureScript Unraveled"]]
-        [:li
-         [:a {:href "https://www.braveclojure.com/clojure-for-the-brave-and-true/"} "Brave Clojure"]]]]]
+      [:h4 {:class "title is-4"} "Online books"]
+      [:table {:class "table"}
+       [:tbody
+        [:tr
+         [:th
+          [:a {:href "https://github.com/clojure-cookbook/clojure-cookbook"} "Clojure Cookbook"]]]
+        [:tr
+         [:th
+          [:a {:href "http://practicalli.github.io/"} "Practicalli Clojure"]]]
+        [:tr
+         [:th
+          [:a {:href "http://funcool.github.io/clojurescript-unraveled/"} "ClojureScript Unraveled"]]]
+        [:tr
+         [:th
+          [:a {:href "https://www.braveclojure.com/clojure-for-the-brave-and-true/"} "Brave Clojure"]]]]]]
 
      [:div {:class "column"}
-      [:div {:class "content"}
-       [:h2 "Videos"]
-       [:ul
-        [:li
-         [:a {:href "https://www.youtube.com/user/ClojureTV"} "Clojure TV"]
-         " - conference talks"]
-        [:li
-         [:a {:href "https://www.youtube.com/watch?v=9A9qsaZZefw&list=PLAC43CFB134E85266"} "Clojure Language"]
-         " - by Brian Will"]
-        [:li
-         [:a {:href ""} "Practicalli Clojure study group"]
-         " - weekly practical lessons"]
-        [:li
-         [:a {:href "http://www.parens-of-the-dead.com/"} "Parens of the dead"]
-         " - writing a card game in Clojure"]]]]]]])
-
-
+      [:h4 {:class "title is-4"} "Videos"]
+      [:table {:class "table"}
+       [:tbody
+        [:tr
+         [:th
+          [:a {:href "https://www.youtube.com/user/ClojureTV"} "Clojure TV"]]
+         [:td "conference talks"]]
+        [:tr
+         [:th
+          [:a {:href "https://www.youtube.com/watch?v=9A9qsaZZefw&list=PLAC43CFB134E85266"} "Clojure Language"]]
+         [:td "describing language concepts"]]
+        [:tr
+         [:th
+          [:a {:href "https://www.youtube.com/watch?v=MZcuL4lRw5E&list=PLy9I_IfUBzKJSgctCJaRYcnF6kZdiZ5ku"} "Practicalli study group"]]
+         [:td "weekly practical lessons"]]
+        [:tr
+         [:th
+          [:a {:href "http://www.parens-of-the-dead.com/"} "Parens of the dead"]]
+         [:td "a card game in Clojure"]]]]]]]])
 
 
 (defn coaches
