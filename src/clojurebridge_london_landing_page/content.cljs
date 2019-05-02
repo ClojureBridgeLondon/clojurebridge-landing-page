@@ -207,11 +207,14 @@
        [:p "Students can choose their own path in learning Clojure and we have put together content at three different levels"]
        [:ul
         [:li
-         [:strong "Absolute Beginner"] " - have a conversation with your computer using colours and shapes"]
+         [:strong
+          [:a {:href "/workshop/clojurebridge-workshop.html"} "Absolute Beginner"]] " - have a conversation with your computer using colours and shapes"]
         [:li
-         [:strong "A little coding experience"] " - tackle some simple challenges"]
+         [:strong
+          [:a {:href "/workshop/clojurebridge-workshop.html"}  "A little coding experience"]] " - tackle some simple challenges"]
         [:li
-         [:strong "Some experience coding"] " - build a website, app or game with a coach"]]
+         [:strong
+          [:a {:href "/workshop/clojurebridge-workshop.html"} "Some coding experience"]] " - build a website, app or game with a coach"]]
 
        [:p "Every student is paired with a coach who will support them through the workshop, helping them to relate to the concepts covered and
 coaching them in the art of coding."]
