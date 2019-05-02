@@ -110,7 +110,9 @@
        [:h2 "Coaches Guide"]
        [:p "Coaching is incredibly rewarding and a great way to embed your understanding of Clojure"]
        [:p "Not sure you are experienced enough? Take a look at the exercises we use in our workshops"]
-       [:p "All coaches agree to abide by the code of conduct"]]]
+       [:p "All coaches agree to abide by the code of conduct"]
+       [:p "A coach training session is run before the main event, enabling you to practice coaching."
+        [:strong "Please bring your laptop to the coach training"]]]]
 
      [:div {:class "column"}
       [:div {:class "content"}
