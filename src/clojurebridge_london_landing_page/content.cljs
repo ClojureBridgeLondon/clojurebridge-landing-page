@@ -208,14 +208,13 @@
        [:ul
         [:li
          [:strong
-          [:a {:href "/workshop/clojurebridge-workshop.html"} "Absolute Beginner"]] " - have a conversation with your computer using colours and shapes"]
+          [:a {:href "/workshop/colours-and-shapes/"} "Colours and Shapes in Clojure"]] " - essentials of coding by creating shapes and simple animated pictures"]
         [:li
          [:strong
-          [:a {:href "/workshop/clojurebridge-workshop.html"}  "A little coding experience"]] " - tackle some simple challenges"]
+          [:a {:href "/workshop/clojure-essentials.html"}  "Clojure essentials"]] " - learn the language and tackle some simple challenges"]
         [:li
          [:strong
-          [:a {:href "/workshop/clojurebridge-workshop.html"} "Some coding experience"]] " - build a website, app or game with a coach"]]
-
+          [:a {:href "/workshop/challenges-projects.html"} "Challenges and projects"]] " - create a dynamic website, animation or interactive game"]]
        [:p "Every student is paired with a coach who will support them through the workshop, helping them to relate to the concepts covered and
 coaching them in the art of coding."]
        ]]]]])
