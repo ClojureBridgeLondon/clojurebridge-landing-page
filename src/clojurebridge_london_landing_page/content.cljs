@@ -371,7 +371,10 @@ coaching them in the art of coding."]
      "Signup for the next event"]
     [:div {:class "column"}
      [:strong "10th/11th May 2019 @ Functional Works, London"]
-     [:p "Coach training 2nd May"]]]])
+     [:p "Coach training 2nd May"]
+     [:p
+      [:a {:href "https://www.youtube.com/watch?v=HOzx9U9SI_4"}
+       "Broadcast: Friday evening introduction"]]]]])
 
 
 (defn banner-columns
