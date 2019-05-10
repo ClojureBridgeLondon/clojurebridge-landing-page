@@ -237,7 +237,7 @@ coaching them in the art of coding."]
       [:div {:class "content"}
        [:h2 "Clojure Showcase"]
        [:p
-        [:a {:href "https://clojurebridgelondon.github.io/workshop/introducing-clojure/"
+        [:a {:href   "https://clojurebridgelondon.github.io/workshop/introducing-clojure/"
              :target "_blank"}
          "Examples of just what Clojure can do"]]]]]]])
 
