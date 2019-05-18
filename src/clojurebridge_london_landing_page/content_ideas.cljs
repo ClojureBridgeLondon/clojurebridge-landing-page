@@ -154,3 +154,80 @@ coaching them in the art of coding."]
 
      ;; call to register section
      ]]])
+
+
+
+;; defining resources using the classic list
+;; not as nice looking as using a table though
+(defn resources-list
+  "Useful resources during the workshop.
+
+  Where to go next after the workshop."
+  []
+  [:div {:class "container"}
+   [:div {:class "box"}
+    [:div {:class "columns"}
+     [:div {:class "column"}
+      [:figure {:class "image"}
+       [:img {:src "images/documentation.jpg"}]]]
+
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Documentation"]
+       [:ul
+        [:li
+         [:a {:href "https://clojuredocs.org/"} "Clojure docs"]
+         " - docs for functions"]
+        [:li
+         [:a {:href "https://clojure.org/"} "Clojure.org"]
+         " - home of Clojure"]
+        [:li
+         [:a {:href "https://clojure.org/"} "CljDocs"]
+         " - search library docs"]]]]
+
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Practising"]
+       [:ul
+        [:li
+         [:a {:href "http://www.4clojure.com/"} "4Clojure"]
+         " - exercise to learn Clojure functions"]
+        [:li
+         [:a {:href "https://exercism.io/tracks/clojure"} "Exercism"]
+         " - Code practice and mentorship"]
+        [:li
+         [:a {:href "https://www.codewars.com/?language=clojure"} "Code Wars"]
+         " - real coding challenges"]
+        [:li
+         [:a {:href "https://www.codingame.com/"} "CodinGame"]
+         " - Practice & learn the fun way"]]]]
+
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Online books"]
+       [:ul
+        [:li
+         [:a {:href "https://github.com/clojure-cookbook/clojure-cookbook"} "Clojure Cookbook"]]
+        [:li
+         [:a {:href "http://practicalli.github.io/"} "Practicalli Clojure"]]
+        [:li
+         [:a {:href "http://funcool.github.io/clojurescript-unraveled/"} "ClojureScript Unraveled"]]
+        [:li
+         [:a {:href "https://www.braveclojure.com/clojure-for-the-brave-and-true/"} "Brave Clojure"]]]]]
+
+     [:div {:class "column"}
+      [:div {:class "content"}
+       [:h2 "Videos"]
+       [:ul
+        [:li
+         [:a {:href "https://www.youtube.com/user/ClojureTV"} "Clojure TV"]
+         " - conference talks"]
+        [:li
+         [:a {:href "https://www.youtube.com/watch?v=9A9qsaZZefw&list=PLAC43CFB134E85266"} "Clojure Language"]
+         " - by Brian Will"]
+        [:li
+         [:a {:href ""} "Practicalli Clojure study group"]
+         " - weekly practical lessons"]
+        [:li
+         [:a {:href "http://www.parens-of-the-dead.com/"} "Parens of the dead"]
+         " - writing a card game in Clojure"]]]]]]])
