@@ -131,8 +131,7 @@
 
   Argument: hash-map of strings - :name, :website, :logo, :message"
   [sponsor-details]
-  [:div {:class "container"
-         :id    "sponsors"}
+  [:div {:class "container"}
    [:div {:class "box"}
     [:div {:class "column is-half is-8 is-offset-2"}
      [:a {:href (get sponsor-details :website)}
@@ -284,6 +283,7 @@ coaching them in the art of coding."]
          [:strong "16:30: "] "Retrospective - capturing feedback"]
         [:li
          [:strong "17:00: "] "Wrap up"]]]]]]])
+
 
 (defn level-separator
   "A separator to provide a gap between components.
