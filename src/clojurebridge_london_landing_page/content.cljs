@@ -314,6 +314,10 @@ coaching them in the art of coding."]
 coaching them in the art of coding."]
        [:p "We teach students Clojure, a functional programming language that is great for beginners and experienced developers alike.  Find out " [:a {:href "#why-clojure"} "why Clojure is a great language to learn."]]
        [:p "Students can choose their own path in learning Clojure and we have put together content at different experience levels of experience."]
+       [:p
+        [:a {:href   "https://clojurebridgelondon.github.io/organise-clojurebridge-london/"
+             :target "_blank"}
+         "How to organise a ClojureBridge London event"]]
        ]]]]])
 
 
