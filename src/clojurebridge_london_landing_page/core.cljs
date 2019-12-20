@@ -15,11 +15,14 @@
 (defonce app-state (atom
                      {:text "Hello world!"
                       :sponsors
-                      {:current {:name    "Functional Works"
+                      {:current {:name    "Signal AI"
+                                 :logo    "images/signal-ai-logo.svg"
+                                 :website "https://signal-ai.com/"
+                                 :message "Signal AI is the leading AI driven global solution provider for real-time unlimited information and insights for media monitoring, reputation management and market intelligence"}
+                       :past    {:name    "Functional Works"
                                  :logo    "images/functional-works-logo.svg"
                                  :website "https://functional.works-hub.com/"
-                                 :message "Breaking down the barriers to hiring the right software engineers, providing a platform to managing the whole process (written in ClojureScript)."}
-                       :past    {}}}))
+                                 :message "Breaking down the barriers to hiring the right software engineers, providing a platform to managing the whole process (written in ClojureScript)."}}}))
 
 
 

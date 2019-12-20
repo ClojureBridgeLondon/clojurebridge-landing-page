@@ -371,11 +371,11 @@ coaching them in the art of coding."]
   [:div {:class "columns"}
    [:div {:class "column"}
     [:a {:class "button is-success is-large is-rounded"
-         :href  "https://www.bridgetroll.org/events/471"}
+         :href  "https://www.bridgetroll.org/events/500"}
      "Signup for the next event"]
     [:div {:class "column"}
-     [:strong "10th/11th May 2019 @ Functional Works, London"]
-     [:p "Coach training 2nd May"]
+     [:strong "20th/21th February 2020 @ Signal, London"]
+     [:p "Coach training 4th February"]
      [:p
       [:a {:href "https://www.youtube.com/watch?v=HOzx9U9SI_4"}
        "Broadcast: Friday evening introduction"]]]]])
