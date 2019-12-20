@@ -140,7 +140,7 @@
       [:div {:class "column"}
        [:figure {:class "image"}
         [:a {:href (get sponsor-details :website)}
-         [:img {:src "images/functional-works-logo.png"}]]]]
+         [:img {:src (get sponsor-details :logo)}]]]]
       [:div {:class "column"}
        [:div {:class "content"}
         [:p (get sponsor-details :message)]]]]]]])
