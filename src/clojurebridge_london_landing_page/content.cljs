@@ -332,7 +332,7 @@ coaching them in the art of coding."]
     [:div {:class "navbar-brand"}
      [:a {:class "navbar-item"
           :href  "/"}
-      [:img {:src "images/clojurebridge-logo.png"}]]
+      [:img {:src "images/clojurebridge-logo-modern.png"}]]
      [:span {:class       "navbar-burger burger"
              :data-target "navbarClojureBridge"}
       ;; Empty spans needed for navbar burger
@@ -386,13 +386,16 @@ coaching them in the art of coding."]
   []
   [:section {:class "section"}
    [:div {:class "container"}
-    [:div {:class "columns"}
-     [:div {:class "column"}
+    [:div {:class "columns is-centered"}
+     [:div {:class "column is-2"}
+      [:figure {:class "image is-128x128"}
+       [:img {:src "images/clojurebridge-logo-modern.png"}]]]
+     [:div {:class "column is-4 "}
       [:h1 {:class "title"}
        "ClojureBridge London"]
       [:p {:class "subtitle"}
        "Fun, Friendly, Free workshop for Women* and non-binary genders"]
-      [:p {:class "subtitle is-6"}
+      [:p {:class "subtitle"}
        "* any person who self-identifies as a woman"]]
-     [:div {:class "column"}
+     [:div {:class "column is-4"}
       [register]]]]])
