@@ -309,7 +309,7 @@ coaching them in the art of coding."]
      [:div {:class "column"}
       [:div {:class "content"}
        [:h2 "ClojureBridge overview "]
-       [:p "Fun, free and friendly workshops for those identifying as women or non-binary gender."]
+       [:p "Fun, free and friendly workshops for those identifying as woman or non-binary gender."]
        [:p "Every student is paired with a coach who will support them through the workshop, helping them to relate to the concepts covered and
 coaching them in the art of coding."]
        [:p "We teach students Clojure, a functional programming language that is great for beginners and experienced developers alike.  Find out " [:a {:href "#why-clojure"} "why Clojure is a great language to learn."]]
