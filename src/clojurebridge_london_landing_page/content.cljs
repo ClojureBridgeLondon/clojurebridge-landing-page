@@ -219,7 +219,7 @@
           [:a {:href "/workshop/additional-projects/"} "Simple Challenges"]] " - to apply what you have learnt about Clojure so far."]
         [:li
          [:strong
-          [:a {:href "/clojurescript/reagent-projects/tic-tac-toe/"} "Tic Tac Toe game"]] " - a single page app of the classic Tic Tac Toe (noughts and crosses) game"]]
+          [:a {:href "https://practicalli.github.io/clojurescript/reagent-projects/tic-tac-toe/"} "Tic Tac Toe game"]] " - a single page app of the classic Tic Tac Toe (noughts and crosses) game"]]
        [:p "Every student is paired with a coach who will support them through the workshop, helping them to relate to the concepts covered and
 coaching them in the art of coding."]
        ]]]]])
