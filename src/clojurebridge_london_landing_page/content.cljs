@@ -203,17 +203,23 @@
      [:div {:class "column"}
       [:div {:class "content"}
        [:h2 "Learning Paths"]
-       [:p "Students can choose their own path in learning Clojure and we have put together content at three different levels"]
+       [:p "Students can choose their own path in learning Clojure and we have several paths to choose from."]
        [:ul
         [:li
          [:strong
-          [:a {:href "/workshop/colours-and-shapes/"} "Colours and Shapes in Clojure"]] " - essentials of coding by creating shapes and simple animated pictures"]
+          [:a {:href "/workshop/colours-and-shapes/"} "Colours and Shapes in Clojure"]] " - fun creating shapes and simple animations with code"]
         [:li
          [:strong
-          [:a {:href "/workshop/clojure-essentials.html"}  "Clojure essentials"]] " - learn the language and tackle some simple challenges"]
+          [:a {:href "/workshop/clojure-essentials.html"}  "Clojure essentials"]] " - learn the basics of Clojure and tackle some simple challenges"]
         [:li
          [:strong
-          [:a {:href "/workshop/challenges-projects.html"} "Challenges and projects"]] " - create a dynamic website, animation or interactive game"]]
+          [:a {:href "/workshop/additional-projects/clojurebridge-website/"} "Build a website"]] " - a single page app that is interactive and styled with CSS"]
+        [:li
+         [:strong
+          [:a {:href "/workshop/additional-projects/"} "Simple Challenges"]] " - to apply what you have learnt about Clojure so far."]
+        [:li
+         [:strong
+          [:a {:href "/clojurescript/reagent-projects/tic-tac-toe/"} "Tic Tac Toe game"]] " - a single page app of the classic Tic Tac Toe (noughts and crosses) game"]]
        [:p "Every student is paired with a coach who will support them through the workshop, helping them to relate to the concepts covered and
 coaching them in the art of coding."]
        ]]]]])
