@@ -6,25 +6,25 @@
 
 (println (js/Date.) "Reloading: src/clojurebridge_london_landing_page/core.cljs")
 
-
-
 ;; Application State
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; define your app data so that it doesn't get over-written on reload
-(defonce app-state (atom
-                     {:text "Hello world!"
-                      :sponsors
-                      {:current {:name    "Signal AI"
-                                 :logo    "images/signal-ai-logo.svg"
-                                 :website "https://signal-ai.com/"
-                                 :message "Signal AI is the leading AI driven global solution provider for real-time unlimited information and insights for media monitoring, reputation management and market intelligence"}
-                       :past    {:name    "Functional Works"
-                                 :logo    "images/functional-works-logo.svg"
-                                 :website "https://functional.works-hub.com/"
-                                 :message "Breaking down the barriers to hiring the right software engineers, providing a platform to managing the whole process (written in ClojureScript)."}}}))
-
-
+(defonce
+  app-state
+  (atom
+   {:text "Hello world!"
+    :sponsors
+    {:current
+     {:name    "Signal AI"
+      :logo    "images/signal-ai-logo.svg"
+      :website "https://signal-ai.com/"
+      :message "Signal AI is the leading AI driven global solution provider for real-time unlimited information and insights for media monitoring, reputation management and market intelligence"}
+     :past
+     {:name    "Functional Works"
+      :logo    "images/functional-works-logo.svg"
+      :website "https://functional.works-hub.com/"
+      :message "Breaking down the barriers to hiring the right software engineers, providing a platform to managing the whole process (written in ClojureScript)."}}}))
 
 ;; Website structure
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -49,9 +49,7 @@
    (content/level-separator "coaches")
    [content/coaches]
    (content/level-separator "sponsors")
-   [content/sponsors]
-   ])
-
+   [content/sponsors]])
 
 ;; System configuration code
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -72,8 +70,7 @@
 
 ;; specify reload hook with ^;after-load metadata
 (defn ^:after-load on-reload []
-  (mount-app-element)
-  ;; optionally touch your app-state to force rerendering depending on
+  (mount-app-element))
+  ;; optionally touch your app-state to force re-rendering depending on
   ;; your application
   ;; (swap! app-state update-in [:__figwheel_counter] inc)
-)
